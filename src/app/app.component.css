@@ -1,0 +1,8 @@
+/*https://stackoverflow.com/questions/28411499/disable-scrolling-on-body/28411556#28411556*/
+.disableScroll{
+  overflow: hidden;
+  max-height: 100%;
+  position: fixed;
+}
+
+

@@ -1,0 +1,31 @@
+Plan For Portfolio:
+
+colors: 
+
+Framework: Angular 2+
+
+make entrance and other sections like this: https://fate-15th.com/
+
+sections:
+1. Front Page
+- > title: D.P's Portfolio
+- > subtitle: 박두표의 포트폴리오
+- > scroll down icon
+- > use this picture: https://unsplash.com/photos/BaCmEa2hy8g (give credit)
+2. Portfolio
+- > use this background: https://unsplash.com/photos/wDOeiVmERPI (long trees fit with the longgg website)
+- > add squares that slide in by order from the left to the right (or individual directions can be used)
+- > add a description that can be shown by toggling a button for each work. (maybe make the button visible after squares all slide in? Maybe that gives emphasis to the buttons?)
+- > add my works chronologically - based on when I created it.
+- > maybe add check and cross feature (checking what good features the website has and crossing what good features the website doesn't have)(for ex. naverMockingWebsite doesn't have the ability to resize to mobile. Explain why you can't. Say that you have to make a seperate mobile website for that using the html style Naver uses.) (maybe add transitions to the list?)
+3. Resume
+- > add link to download a blank pdf document for now.
+4. Contact Me
+- > add Google Maps API.
+- > use formspree to add email sending capability.
+
+uses the following CSS:
+- flexbox (partial support in IE10)
+- transitions
+
+has a navigation at the right.

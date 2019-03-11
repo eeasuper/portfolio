@@ -1,0 +1,69 @@
+.img{
+  max-width: 100%;
+/*  transition: transform 3s cubic-bezier(0.455, 0.03, 0.515, 0.955) 2s, 
+    opacity 2s cubic-bezier(0.455, 0.03, 0.515, 0.955);*/
+    /*comment the uncommented lines below and viceversa for turning on transitions!*/
+  /*transform: translateY(-50%);*/
+  /*transform: translateY(0%);
+  opacity: 1;*/
+  /*opacity: 0;*/
+}
+
+/*.move{
+  opacity: 1;
+  transform: translateY(0%);
+  overflow: hidden;
+}*/
+
+.moveTitles{
+  /*opacity: 1 !important;*/
+}
+
+.titles{
+  /*opacity: 0;*/
+  /*transition: opacity 4s cubic-bezier(0.455, 0.03, 0.515, 0.955);*/
+}
+
+.title{
+  position: absolute;
+  color: white;
+  left: 50%;
+  text-shadow: 0px 0px 1px white;
+}
+
+h1{
+  top: 125px;
+  margin-left: -188.4px;
+
+  letter-spacing: 2px;
+  font-size: 55px;
+  font-weight: 400;
+}
+
+h2{
+  top: 200px;
+  /*margin-left: -204.7px;*/
+  margin-left: -220.7px;
+
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+span.brackets{
+  font-weight: 100;
+  font-size: 50px;
+}
+
+.arrow{
+  top: 290px;
+  margin-left: -47.5px;
+  max-width: 95px;
+}
+
+h3{
+  top: 340px;
+  margin-left: -22px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  text-shadow: 0px 0px 3px black !important;
+}

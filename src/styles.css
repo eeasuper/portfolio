@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+
+body{
+  margin: 0;
+  /*overflow: scroll keeps scrollbar present when page first renders, showing the transition.*/
+  overflow-y: scroll;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.test{
+  border: 3px solid purple;
+}
+
+.english{
+  font-family: 'Cormorant Infant','Cormorant Garamond','Crimson Text','Times New Roman';
+}
+
+.korean{
+  font-family: 'Nanum Myeongjo','Noto Serif KR';
+}
+
+.neutral{
+  font-family: 'Noto Serif KR';
+}

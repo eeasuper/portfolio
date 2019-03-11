@@ -1,0 +1,106 @@
+/*.background-portfolio{
+  background-image: url('../resources/portfolioPageCover.jpg');
+  height: 100vh;
+  background-size: 100% auto;
+}*/
+.background-portfolio{
+  background-color: #dcdcdc;
+}
+
+.portfolioh3{
+  position: relative;
+  font-size: 70px;
+  margin-bottom: 70px;
+  font-weight: 300;
+  text-align: center;
+  font-family: 'Cormorant Infant', serif;
+}
+
+.project{
+  width: 860px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+}
+
+.project li:nth-child(1){
+
+}
+
+
+
+.projectLi{
+  list-style: none;
+}
+
+.details{
+  width: 860px;
+  padding: 90px 0 40px;
+  margin: auto;
+  box-sizing: border-box;
+  position: relative;
+  margin-bottom: 80px;
+  background-color: #FFF;
+}
+
+.details h3{
+  font-size: 30px;
+  font-weight: 300;
+  padding: 16px 0;
+  left: 50%;
+  width: 700px;
+  margin-left: -350px;
+  position: absolute;
+  background-color: #d1e0eb;
+  margin-top: -130px;
+}
+
+.preview{
+  position: relative;
+  width: 430px;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.img{
+  max-width: 430px;
+  border-radius: 5px;
+}
+
+.cover{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transition: opacity 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  background-color: black;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.cover:hover{
+  opacity: 0.3;
+}
+
+dl{
+  width: 540px;
+  margin: 0 auto 20px;
+}
+
+dt{
+  border: 1px solid black;
+  font-size: 14px;
+  border-radius: 5px;
+  font-weight: 400;
+  display: inline-block;
+  margin: 30px 0 10px;
+  padding: 8px;
+}
+
+dd{
+  font-size: 16px;
+  font-weight: 400;
+  word-break: keep-all;
+}
